@@ -3,7 +3,8 @@ var About = React.createClass({
   render: function() {
     return (
       <div>
-        <h3>About Component</h3>
+        <h3>About</h3>
+        <p>Welcome to About page</p>
       </div>
     );
   }
