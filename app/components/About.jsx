@@ -3,8 +3,13 @@ var About = React.createClass({
   render: function() {
     return (
       <div>
-        <h3>About</h3>
-        <p>Welcome to About page</p>
+        <h1 className='text-center'>About</h1>
+        <p>This is a Weather Application using React and Foundation</p>
+        <ul>
+          <li>Author: RB</li>
+          <li>Github Link</li>
+          <li>OpenWeatherMap</li>
+        </ul>
       </div>
     );
   }
